@@ -7,6 +7,6 @@ import com.squareup.moshi.JsonClass
 data class RepositoryDataBase(
     @Json(name = "name")
     val name:String,
-    @Json(name = "repos_url")
+    @Json(name = "html_url")
     val repos_url:String
 )
